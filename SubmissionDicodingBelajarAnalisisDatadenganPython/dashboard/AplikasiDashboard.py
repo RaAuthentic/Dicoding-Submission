@@ -58,8 +58,8 @@ def load_data(file_path):
     return pd.read_csv(file_path)
 
 # Memuat data hari dan jam
-day_data = load_data("dashboard/updated_day_data.csv")
-hour_data = load_data("dashboard/updated_hour_data.csv")
+day_data = load_data("https://github.com/RaAuthentic/Dicoding-Submission/blob/274dfc8a35db8b1fa5bd3d4fd691958e50adf259/SubmissionDicodingBelajarAnalisisDatadenganPython/dashboard/updated_day_data.csv")
+hour_data = load_data("https://github.com/RaAuthentic/Dicoding-Submission/blob/274dfc8a35db8b1fa5bd3d4fd691958e50adf259/SubmissionDicodingBelajarAnalisisDatadenganPython/dashboard/updated_hour_data.csv")
 
 # Menampilkan data
 st.write("Data Harian:")
