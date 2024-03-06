@@ -45,7 +45,7 @@ The project follows the following work cycle:
 [Add screenshots here if available]
 
 ## Project Structure:
-
+```
 Repository:.
 | Proyek_Analisis_Data.ipynb
 | README.MD
@@ -76,7 +76,7 @@ Repository:.
 | ---.ipynb_checkpoints
 ---streamlitweb
 ScreenshootWeb.png
-
+```
 
 
 ---
