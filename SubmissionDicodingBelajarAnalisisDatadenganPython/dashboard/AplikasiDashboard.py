@@ -16,12 +16,12 @@ st.subheader('🚲 Daily Rentals 🚲')
 
 # List path gambar
 gambar_paths = [
-    "image/export/gambar1.png",
-    "image/export/gambar2.png",
-    "image/export/gambar3.png",
-    "image/export/gambar4.png",
-    "image/export/gambar5.png",
-    "image/export/gambar6.png"
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar1.png",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar2.png",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar3.png",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar4.png",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar5.png",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar6.png"
 ]
 
 # Judul-judul gambar
