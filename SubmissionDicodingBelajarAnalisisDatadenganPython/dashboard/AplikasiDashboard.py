@@ -16,12 +16,12 @@ st.subheader('🚲 Daily Rentals 🚲')
 
 # List path gambar
 gambar_paths = [
-    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar1.png",
-    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar2.png",
-    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar3.png",
-    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar4.png",
-    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar5.png",
-    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar6.png"
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar1.png?raw=true",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar2.png?raw=true",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar3.png?raw=true",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar4.png?raw=true",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar5.png?raw=true",
+    "https://github.com/RaAuthentic/Dicoding-Submission/blob/a130689ca0d26860e7400cce5080fbc6bafee77b/SubmissionDicodingBelajarAnalisisDatadenganPython/image/export/gambar6.png?raw=true"
 ]
 
 # Judul-judul gambar
@@ -58,8 +58,8 @@ def load_data(file_path):
     return pd.read_csv(file_path)
 
 # Memuat data hari dan jam
-day_data = load_data("https://github.com/RaAuthentic/Dicoding-Submission/blob/274dfc8a35db8b1fa5bd3d4fd691958e50adf259/SubmissionDicodingBelajarAnalisisDatadenganPython/dashboard/updated_day_data.csv")
-hour_data = load_data("https://github.com/RaAuthentic/Dicoding-Submission/blob/274dfc8a35db8b1fa5bd3d4fd691958e50adf259/SubmissionDicodingBelajarAnalisisDatadenganPython/dashboard/updated_hour_data.csv")
+day_data = load_data("https://raw.githubusercontent.com/RaAuthentic/Dicoding-Submission/main/SubmissionDicodingBelajarAnalisisDatadenganPython/dashboard/updated_day_data.csv")
+hour_data = load_data("https://raw.githubusercontent.com/RaAuthentic/Dicoding-Submission/main/SubmissionDicodingBelajarAnalisisDatadenganPython/dashboard/updated_hour_data.csv")
 
 # Menampilkan data
 st.write("Data Harian:")
