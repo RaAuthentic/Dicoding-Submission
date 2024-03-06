@@ -1,7 +1,7 @@
 # Overview: Submission Projek Belajar Analisis Data dengan Python 
 
 #Hello Everybody ///
-Welcome to my project repository! This project is the result of my learning journey in the "Belajar Analisis Data Dengan Python" course offered by Dicoding. The main objective of this project is to perform in-depth analysis and create an interactive dashboard using the bike sharing dataset.
+Welcome to my project repository! This project is the result of my learning journey in the "Belajar Analisis Data Dengan Python" course offered by Dicoding. The main objective of this project is to perform in-depth analysis and create an interactive dashboard using the bike sharing dataset. you all can check the live version of my program in this [Streamlit Web](https://dicoding-submission-dataanalytic1-keindra.streamlit.app/)
 
 ## Project Work Cycle:
 
@@ -42,7 +42,7 @@ The project follows the following work cycle:
 
 ## Screenshots
 
-![Screenshoot Web]("SubmissionDicodingBelajarAnalisisDatadenganPython\image\streamlitweb\ScreenshootWeb.png")
+![Screenshoot Web]("SubmissionDicodingBelajarAnalisisDatadenganPython\image\streamlitweb\ScreenshootWeb.png?raw=true")
 
 ## Project Structure:
 ```
