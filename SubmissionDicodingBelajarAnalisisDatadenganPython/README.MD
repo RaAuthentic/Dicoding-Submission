@@ -42,7 +42,7 @@ The project follows the following work cycle:
 
 ## Screenshots
 
-![alt text](SubmissionDicodingBelajarAnalisisDatadenganPython/image/streamlitweb/ScreenshootfromWeb.png?raw=true)
+![alt text](/SubmissionDicodingBelajarAnalisisDatadenganPython/image/streamlitweb/ScreenshootfromWeb.png?raw=true)
 
 ## Project Structure:
 ```
