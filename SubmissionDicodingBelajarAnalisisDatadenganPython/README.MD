@@ -42,7 +42,7 @@ The project follows the following work cycle:
 
 ## Screenshots
 
-[Add screenshots here if available]
+![Screenshoot Web](image\streamlitweb\ScreenshootWeb.png)
 
 ## Project Structure:
 ```
