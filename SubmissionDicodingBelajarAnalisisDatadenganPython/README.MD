@@ -38,7 +38,7 @@ The project follows the following work cycle:
 1. Download this project.
 2. Install Streamlit in your terminal or command prompt using `pip install streamlit`. Install other libraries in the requirment.txt like pandas, numpy, matplotlib, and etc.
 3. Please note, don't move the csv file because it acts as a data source. Keep it in one folder as AplikasiDashboard.py
-4. Open your VSCode and run the file by clicking the terminal and write it `streamlit run AplikasiDashboard.py`.
+4. Open your VSCode and run the file by clicking the terminal and write it ` streamlit run dashboard/AplikasiDashboard.py`.
 
 ## Screenshots
 
