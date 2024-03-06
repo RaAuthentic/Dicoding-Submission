@@ -42,7 +42,7 @@ The project follows the following work cycle:
 
 ## Screenshots
 
-![alt text](https://github.com/OrNixz/bike-sharing-rentals/blob/main/screenshots/Screenshot%20(91).png?raw=true)
+![alt text](SubmissionDicodingBelajarAnalisisDatadenganPython/image/streamlitweb/ScreenshootfromWeb.png?raw=true)
 
 ## Project Structure:
 ```
@@ -72,8 +72,6 @@ Repository:.
 | | gambar4.png
 | | gambar5.png
 | | gambar6.png
-| |
-| ---.ipynb_checkpoints
 ---streamlitweb
 ScreenshootWeb.png
 ```
