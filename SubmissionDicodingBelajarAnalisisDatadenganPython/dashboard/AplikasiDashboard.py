@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
 
 # Membuat judul
 st.header('🚲 Keindra Bike Rental Dashboard 🚲')
@@ -67,3 +70,29 @@ st.write(day_data.head())
 
 st.write("Data Per Jam:")
 st.write(hour_data.head())
+
+# Fitur K-means Clustering untuk Data Per Jam
+if st.checkbox("Fitur K-means Clustering untuk Data Per Jam"):
+    # Memilih jumlah kluster
+    k = st.slider("Pilih Jumlah Kluster", min_value=2, max_value=10)
+
+    # Melakukan K-means Clustering
+    kmeans = KMeans(n_clusters=k, random_state=0)
+    kmeans.fit(hour_data.drop(columns=["dteday"]))
+
+    # Menambahkan kolom kluster ke data
+    hour_data["cluster"] = kmeans.labels_
+
+    # Menampilkan hasil klustering
+    st.write(hour_data.head())
+
+    # Visualisasi hasil klustering
+    fig, ax = plt.subplots()
+    colors = ["r", "g", "b", "c", "m", "y", "k"]
+    for i in range(k):
+        cluster_data = hour_data[hour_data["cluster"] == i]
+        ax.scatter(cluster_data["hr"], cluster_data["cnt"], c=colors[i], label=f"Cluster {i+1}")
+    ax.set_xlabel("Jam (hr)")
+    ax.set_ylabel("Jumlah Penyewaan (cnt)")
+    ax.legend()
+    st.pyplot(fig)
