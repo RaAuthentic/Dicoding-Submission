@@ -1,0 +1,2 @@
+link model : https://drive.google.com/drive/folders/1Ke9695rrDv_Zs0m_UwGcfuu3KwQrL9lV?usp=drive_link
+link data  : https://www.kaggle.com/datasets/simaanjali/emotion-analysis-based-on-text/data
